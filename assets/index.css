@@ -3,13 +3,27 @@
     --bg: #fff;
     --text: #101010;
     --primary: #0d5a87;
-    --secondary: #fbff83;
+    --secondary: #eaea0a;
+    --bg-box: var(--bg);
+    --shadow: 0 0 1.3px #0780ad;
 }
 
 [data-theme="dark"]
 {
     --bg: #222325;
     --text: #f8f8f8;
+    --primary: #0d5a87;
+    --secondary: #eaea0a;
+    --bg-box: #111111;
+    --shadow: none;
+}
+
+/*Styled Components*/
+.box {
+    box-shadow: var(--shadow);
+    background-color: var(--bg-box);
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 
@@ -21,14 +35,15 @@ body {
     color: var(--text);
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 17px;
 }
 
 /*HEADER SECTION*/
 header {
-    padding: 20px;
-    background-color: var(--secondary);
+    padding-top: 7px;
+    padding-bottom: 7px;
     color: var(--text);
+    text-align: center;
 }
