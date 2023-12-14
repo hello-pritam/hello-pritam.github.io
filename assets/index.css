@@ -5,7 +5,7 @@
     --primary: #0d5a87;
     --secondary: #eaea0a;
     --bg-box: var(--bg);
-    --shadow: 0 0 1.3px #0780ad;
+    --shadow: 0 0 1.3px #50d0ff;
 }
 
 [data-theme="dark"]
@@ -19,7 +19,7 @@
 }
 
 /*Styled Components*/
-.box {
+.content-box {
     box-shadow: var(--shadow);
     background-color: var(--bg-box);
     padding-left: 17px;
@@ -46,4 +46,11 @@ header {
     padding-bottom: 7px;
     color: var(--text);
     text-align: center;
+}
+
+.brand-logo {
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
 }
