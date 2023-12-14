@@ -42,8 +42,8 @@ body {
 
 /*HEADER SECTION*/
 header {
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: var(--text);
     text-align: center;
 }
